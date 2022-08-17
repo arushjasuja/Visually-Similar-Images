@@ -6,7 +6,9 @@ These vector representations can be used to calculate similarity between two ima
 
 After the vector representations are formed, if the database is updated with new images. The encoding is performed with the new images only. The feature representations for existing images in the previous run are not extracted again.
 
-The file path for the query image needs to be set and the code needs to be run.
+How to Run:
+  The file path for the query image needs to be set and the code needs to be run. The embeddings file can be found at the link below.
+  The file can be executed on google colab or jupyter
 
 Future Scope:
 1. Exception handling can be used to deal with possible edge cases such as, ignoring corrupt images in the database if any
