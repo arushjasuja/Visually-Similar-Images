@@ -8,6 +8,7 @@ After the vector representations are formed, if the database is updated with new
 
 How to Run:
   The file path for the query image needs to be set and the code needs to be run. The embeddings file can be found at the link below.
+  https://drive.google.com/file/d/1eaYSMyNm9IPTJzmr4kf-jOaVruMoTkjb/view?usp=sharing
   The file can be executed on google colab or jupyter
 
 Future Scope:
