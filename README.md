@@ -6,6 +6,8 @@ These vector representations can be used to calculate similarity between two ima
 
 After the vector representations are formed, if the database is updated with new images. The encoding is performed with the new images only. The feature representations for existing images in the previous run are not extracted again.
 
+The file path for the query image needs to be set and the code needs to be run.
+
 Future Scope:
 1. Exception handling can be used to deal with possible edge cases such as, ignoring corrupt images in the database if any
 2. Finding similar images is computationally expensive, the problem gets worse as the size of data increases. Services like Google Vertex AI Matching Engine, IO Similarity Search, Pinecone, Milvus can be used to deal with this.
